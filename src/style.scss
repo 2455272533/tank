@@ -1,0 +1,25 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+#app {
+  width: 60vw;
+  height: 70vh;
+  background-color: #000;
+  background-image: url('./static/images/cover/cover.png');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+  border: 20px solid #333;
+
+  canvas {
+    position: absolute;
+  }
+}
